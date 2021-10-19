@@ -118,7 +118,7 @@ body {
 
  /* section google-home */
  .google-home {
-    height: 446px;
+    height: 440px;
  }
  .google-home .container {
      perspective: 500px;
@@ -202,10 +202,9 @@ form.btn .btn1:hover {
 .footer p {
     font-size:15px;
     color:var(--text-color);
-    border-bottom: 1px solid var(--main-color);  
 }
 .footer hr {
-    margin-top:25px;
+    margin-top:20px;
     height: 1px;
     background-color: rgb(228, 226, 226);
     border: none;
