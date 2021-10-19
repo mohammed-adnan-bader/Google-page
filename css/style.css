@@ -118,7 +118,7 @@ body {
 
  /* section google-home */
  .google-home {
-     height:450px
+    height: 446px;
  }
  .google-home .container {
      perspective: 500px;
