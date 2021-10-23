@@ -201,6 +201,9 @@ form.btn .btn1:hover {
         width:60%;
 
     }
+    form.search {
+        margin-left:50px;
+    }
     
 }
 
