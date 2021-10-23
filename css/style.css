@@ -118,7 +118,7 @@ body {
 
  /* section google-home */
  .google-home {
-    height: 440px;
+    min-height: 440px;
  }
  .google-home .container {
      perspective: 500px;
@@ -192,6 +192,17 @@ form.btn .btn1:hover {
     text-decoration:underline;
  
 }
+@media (max-width:767px) {
+    .google-home-image {
+        margin-top:100px;
+        text-align:center;
+    }
+    .google-home-image img {
+        width:60%;
+
+    }
+    
+}
 
 /* Start Footer */
 .footer {
@@ -235,5 +246,25 @@ form.btn .btn1:hover {
 .footer-list-first li:hover a,
 .footer-list-secound li:hover a {
     text-decoration:underline;
+    
+}
+@media (max-width:767px) {
+    footer .container {
+        text-align:center;
+    }
+    .footer-navbar {
+        display:flex;
+        flex-direction:column ;
+        text-align:center;
+
+    }
+    .footer-list-first {
+        display:flex;
+        flex-direction:column ;
+    }
+    .footer-list-secound {
+        display:flex;
+        flex-direction:column;
+    }
 }
 /* End Footer */
